@@ -25,9 +25,6 @@ fn main (){
 		Ordering::Greater => println!("bhai tera number bada hai"),
 		Ordering::Equal => println!("Tu hero hai bhai jeet gaya "),
 		
-		
 	}
-
-
 
 }
