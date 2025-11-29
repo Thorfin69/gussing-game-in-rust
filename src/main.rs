@@ -18,7 +18,7 @@ fn main (){
     .expect("Bhai Bakchodi mat kar ");
 	
 	let guess: u32 = guess.trim().parse().expect("Bhai number lik chup chap");
-	println!("Bhai tune: {guess} guess kiya");
+	//println!("Bhai tune: {guess} guess kiya");
 	
 	match guess.cmp(&rand_number) {
 		Ordering::Less => println!("bhai tera number chota hai"),
